@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+
+.fr-popup {
+    z-index: 1050 !important;
+}
+
+.fr-toolbar {
+    z-index: 1050 !important;
+}
+
+.fr-view img {
+    position: relative !important;
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+.fr-popup.fr-active {
+    z-index: 2200 !important;
+}
+
+.post-editor-body {
+    padding-left: 30px;
+    .fr-quick-insert.fr-visible {
+        left: -7px !important;
+    }
+}
